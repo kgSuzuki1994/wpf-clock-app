@@ -8,7 +8,7 @@
         Title="時計アプリ" Height="250" Width="800" ResizeMode="CanResizeWithGrip" ShowInTaskbar="False" Topmost="True">
     <Grid>
         <Viewbox>
-            <TextBlock x:Name="textBlock" Text="00:00:00"/>
+            <TextBlock x:Name="textBlock" Text="00:00:00" MouseDown="textBlock_MouseDown"/>
         </Viewbox>
 
     </Grid>
